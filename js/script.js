@@ -160,7 +160,7 @@
 //     discount = SILVER_DISCOUNT;
 //   } else if (20000 > totalSpent && totalSpent >= 5000) {
 //     discount = BRONZE_DISCOUNT;
-//   } else {discount = BASE_DISCOUNT; 
+//   } else {discount = BASE_DISCOUNT;
 //   }
 //   return discount;
 // }
@@ -172,3 +172,96 @@
 // console.log(getDiscount(20000));
 // console.log(getDiscount(50000));
 // 25
+// function checkStorage(available, ordered) {
+//   let message;
+//   message = (ordered > available) ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
+//   return message;
+// }
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 150));
+// console.log(checkStorage(150, 180));
+// 26
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+// message = (password === "jqueryismyjam") ? "Access is allowed" : "Access denied, wrong password!";
+//   return message;
+// }
+// console.log(checkPassword("jqueryismyjam"));
+// console.log(checkPassword("angul4r1sl1f3"));
+// console.log(checkPassword("r3actsux"));
+// 27
+// function getSubscriptionPrice(type) {
+//   let price;
+//  switch (type) {
+//     case "starter":
+//       price = 0;
+//       break;
+
+//     case "professional":
+//       price = 20;
+//       break;
+
+//     case "organization":
+//       price = 50;
+//       break;
+//   }
+//   return price;
+// }
+// console.log(getSubscriptionPrice("professional"));
+// console.log(getSubscriptionPrice("organization"));
+// console.log(getSubscriptionPrice("starter"));
+// 28
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+// switch (password) {
+//   case null:
+//   message = "Canceled by user!";
+//   break;
+
+//   case ADMIN_PASSWORD:
+//   message = "Welcome!";
+//   break;
+  
+//   default: message = "Access denied, wrong password!";
+// }
+//   return message;
+// }
+// console.log(checkPassword("mangohackzor"));
+// console.log(checkPassword(null));
+// console.log(checkPassword("polyhax"));
+// console.log(checkPassword("jqueryismyjam"));
+// 29
+// function getShippingCost(country) {
+//   let message;
+//   switch (country) {
+//   case "China":
+//   message = "Shipping to China will cost 100 credits";
+//   break;
+
+//   case "Chile":
+//   message = "Shipping to Chile will cost 250 credits";
+//   break;
+
+//   case "Australia":
+//   message = "Shipping to Australia will cost 170 credits";
+//   break;
+
+//   case "Jamaica":
+//   message = "Shipping to Jamaica will cost 120 credits";
+//   break;
+  
+//   default: message = "Sorry, there is no delivery to your country";
+// }
+//   return message;
+// }
+// console.log(getShippingCost("Australia"));
+// console.log(getShippingCost("Germany"));
+// console.log(getShippingCost("China"));
+// console.log(getShippingCost("Chile"));
+// console.log(getShippingCost("Jamaica"));
+// console.log(getShippingCost("Sweden"));
+// 30

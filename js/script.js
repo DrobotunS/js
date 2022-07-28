@@ -265,3 +265,24 @@
 // console.log(getShippingCost("Jamaica"));
 // console.log(getShippingCost("Sweden"));
 // 30
+// function getNameLength(name) {
+//     const message = `Name ${name} is ${name.length} characters long`;
+//     return message;
+//   }
+//   console.log(getNameLength("Poly"));
+//   console.log(getNameLength("Harambe"));
+//   console.log(getNameLength("Billy"));
+//   console.log(getNameLength("Joe"));
+// 31
+// const courseTopic = "JavaScript essentials";
+
+// const courseTopicLength = courseTopic;
+// const firstElement = courseTopic;
+// const lastElement = courseTopic;
+
+// console.log(courseTopic.length);
+// console.log(firstElement[0]);
+// console.log(lastElement[courseTopic.length - 1]);;
+// 32
+
+  

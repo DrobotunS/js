@@ -297,3 +297,53 @@
 // 33
 
   
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+//   if (maxLength < message.length) {
+//     result = message.slice(0, maxLength) + "...";
+//  } else {result = message;
+//   }
+//     return result;
+// }
+
+// console.log(formatMessage("Curabitur ligula sapien", 16));
+// console.log(formatMessage("Curabitur ligula sapien", 23));
+// console.log(formatMessage("Vestibulum facilisis purus nec", 20));
+// console.log(formatMessage("Vestibulum facilisis purus nec", 30));
+// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15));
+// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41));
+// 34
+// function normalizeInput(input) {
+//   const normalizedInput = input.toLowerCase(); // Change this line
+
+//   return normalizedInput;
+// }
+// console.log(normalizeInput("Hello world"));
+// console.log(normalizeInput("This ISN'T SpaM"));
+// console.log(normalizeInput("Big SALE"));
+// 35
+// function checkForName(fullName, name) {
+//  const result = fullName.includes(name); // Change this line
+//   return result;
+// }
+// console.log(checkForName("Egor Kolbasov", "Egor"));
+// console.log(checkForName("Egor Kolbasov", "egor"));
+// console.log(checkForName("Egor Kolbasov", "egOr"));
+// console.log(checkForName("Egor Kolbasov", "Zhenya"));
+// console.log(checkForName("Vadim Nekrasov", "Vadim"));
+// console.log(checkForName("Vadim Nekrasov", "vadim"));
+// console.log(checkForName("Vadim Nekrasov", "Dima"));
+// 36
+// function checkForSpam(message) {
+//   let result;
+//   result =message.toLowerCase().includes("spam") || message.toLowerCase().includes("sale");
+//   return result;
+// }
+// console.log(checkForSpam("Latest technology news"));
+// console.log(checkForSpam("JavaScript weekly newsletter"));
+// console.log(checkForSpam("Get best sale offers now!"));
+// console.log(checkForSpam("Amazing SalE, only tonight!"));
+// console.log(checkForSpam("Trust me, this is not a spam message"));
+// console.log(checkForSpam("Get rid of sPaM emails. Our book in on sale!"));
+// console.log(checkForSpam("[SPAM] How to earn fast money?"));

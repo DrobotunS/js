@@ -134,3 +134,21 @@
 // Mango
 // top_picks_for_you
 // 13
+// function slugify(title) {
+//     // Change code below this line
+//   wordLowerCase = title.toLowerCase();
+//   word = wordLowerCase.split(" ");
+//   words = word.join("-");
+//   return words;
+//     // Change code above this line
+//   }
+//    console.log(slugify("Arrays for begginers"));
+//    console.log(slugify("English for developer"));
+//    console.log(slugify("Ten secrets of JavaScript"));
+//    console.log(slugify("How to become a JUNIOR developer in TWO WEEKS"));
+
+// arrays-for-begginers
+// english-for-developer
+// ten-secrets-of-javascript
+// how-to-become-a-junior-developer-in-two-weeks
+// 14

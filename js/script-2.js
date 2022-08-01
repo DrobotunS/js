@@ -57,11 +57,80 @@
 // const fruits = ["apple", "peach", "pear", "banana"];
 // const fruitsArrayLength = fruits.length;
 // console.log(fruits.length);
-// 8
+// // 8
 // const fruits = ["apple", "peach", "pear", "banana"];
 
 // const lastElementIndex = fruits.length - 1;
 // console.log(lastElementIndex);
 //  const lastElement = fruits[lastElementIndex];
-//  console.log(lastElement);
+//  console.log([lastElement]);
 // 9
+// function getExtremeElements(array) {
+//     // Change code below this line
+//   const firstElement = array[0];
+//   const lastElementIndex = array.length - 1;
+//   const lastElement = array[lastElementIndex];
+//     substring = ([firstElement, lastElement]);
+//     return substring;
+//     // Change code above this line
+//   }
+  
+//   console.log(getExtremeElements([1, 2, 3, 4, 5]));
+//   console.log(getExtremeElements(["Earth", "Mars", "Venus"]));
+//   console.log(getExtremeElements(["apple", "peach", "pear", "banana"]));
+
+// [ 1, 5 ]
+// [ 'Earth', 'Venus' ]
+// [ 'apple', 'banana' ]
+// 10
+// function splitMessage(message, delimeter) {
+//     let words;
+//     // Change code below this line
+//   words = message.split(delimeter);
+  
+//     // Change code above this line
+//     return words;
+//   }
+//   console.log(splitMessage("Mango hurries to the train", " "));
+//   console.log(splitMessage("Mango", ""));
+//   console.log(splitMessage("best_for_week", "_"));
+
+// [ 'Mango', 'hurries', 'to', 'the', 'train' ]
+// [ 'M', 'a', 'n', 'g', 'o' ]
+// [ 'best', 'for', 'week' ]
+// 11
+// function calculateEngravingPrice(message, pricePerWord) {
+//     // Change code below this line
+//     let words;
+//     words = message.split(" ");
+//  messagelength = words.length;
+//  totalprice = messagelength * pricePerWord;
+//  return totalprice;
+//     // Change code above this line
+//  }
+//  console.log(calculateEngravingPrice("JavaScript is in my blood", 10));
+//  console.log(calculateEngravingPrice("JavaScript is in my blood", 20));
+//  console.log(calculateEngravingPrice("Web-development is creative work", 40));
+//  console.log(calculateEngravingPrice("Web-development is creative work", 20));
+
+// 50
+// 100
+// 160
+// 80
+
+// 12
+// function makeStringFromArray(array, delimeter) {
+//     let string;
+//     // Change code below this line
+//   string = array.join(delimeter);
+//     // Change code above this line
+//     return string;
+//   }
+//    console.log(makeStringFromArray(["Mango", "hurries", "to", "the", "train"], " "));
+//    console.log(makeStringFromArray(["M", "a", "n", "g", "o"], ""));
+//    console.log(makeStringFromArray(["top", "picks", "for", "you"], "_"));
+
+// Mango hurries to the train
+// Mango
+// top_picks_for_you
+// 13

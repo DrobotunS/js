@@ -289,11 +289,15 @@
 
 //   return substring;
 // }
-    // console.log(getSubstring("Hello world", 3));
-    // console.log(getSubstring("Hello world", 6));
-    // console.log(getSubstring("Hello world", 8));
-    // console.log(getSubstring("Hello world", 11));
-    // console.log(getSubstring("Hello world", 0));
+//     console.log(getSubstring("Hello world", 3));
+//     console.log(getSubstring("Hello world", 6));
+//     console.log(getSubstring("Hello world", 8));
+//     console.log(getSubstring("Hello world", 11));
+//     console.log(getSubstring("Hello world", 0));
+// Hel
+// Hello 
+// Hello wo
+// Hello world
 // 33
 
   

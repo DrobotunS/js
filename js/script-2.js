@@ -152,3 +152,64 @@
 // ten-secrets-of-javascript
 // how-to-become-a-junior-developer-in-two-weeks
 // 14
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// console.log(firstTwoEls);
+// const nonExtremeEls = fruits.slice(1, 4);;
+// console.log(nonExtremeEls);
+// const lastThreeEls = fruits.slice(2, );;
+// console.log(lastThreeEls);
+
+// [ 'apple', 'plum' ]
+// [ 'plum', 'pear', 'orange' ]
+// [ 'pear', 'orange', 'banana' ]
+// 15
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients); // Change this line
+// console.log(allClients);
+
+// [ 'Mango', 'Ajax', 'Poly', 'Kiwi', 'Peach', 'Houston' ]
+
+// 16
+// function makeArray(firstArray, secondArray, maxLength) {
+//     // Change code below this line
+//     let totalArray;
+//     let array;
+//     totalArray = firstArray.concat(secondArray);
+//     array = totalArray.slice(0, maxLength);
+//     return array;
+//     // Change code above this line
+//   }
+// console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
+// console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4));
+// console.log(makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3));
+// console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2));
+// console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4));
+// console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0));
+
+// [ 'Mango', 'Poly', 'Ajax' ]
+// [ 'Mango', 'Poly', 'Houston', 'Ajax' ]
+// [ 'Mango', 'Ajax', 'Chelsea' ]
+// [ 'Earth', 'Jupiter' ]
+// [ 'Earth', 'Jupiter', 'Neptune', 'Uranus' ]
+// []
+
+// 17
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) { // Change this line
+//   console.log(i);
+// }
+
+// 3
+// 4
+// 5
+// 6
+// 7
+
+// 18

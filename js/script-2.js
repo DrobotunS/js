@@ -266,19 +266,28 @@
 // 503
 // 1116
 // 21
-function findLongestWord(string) {
-  // Change code below this line
-    let maxlength = string[0];
-    for (const oneLongestWord of string) {
-        if (oneLongestWord.length > maxlength.length);
-            maxlength = findLongestWord;
-        
-    }
-    return maxlength;
+// ПОИСК САМОГО ДЛИННОГО СЛОВА
+// function findLongestWord(string) {
+//   // Change code below this line
+//   let words = string.split(" ");
+//   let maxlength = words[0];
+//     for (let i = 0; i < words.length; i += 1) {
+//         if (words[i].length > maxlength.length) {
+//             maxlength = words[i];
+//         }     
+//     }
+            
+//     return maxlength;
     
 
-  // Change code above this line
-}
-console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
-console.log(findLongestWord("Google do a roll"));
-console.log(findLongestWord("May the force be with you"));
+//   // Change code above this line
+// }
+// console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+// console.log(findLongestWord("Google do a roll"));
+// console.log(findLongestWord("May the force be with you"));
+
+// jumped
+// Google
+// force
+// 22
+

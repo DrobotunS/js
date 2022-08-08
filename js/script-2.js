@@ -401,7 +401,7 @@
 //     const number = element;
 
 //     if (number > value) {
-//       filteredNumbers.push(number);
+//       filteredNumbers.push(number);  
 //     }
 //   }
 
@@ -421,30 +421,101 @@
 // [ 24, 41, 76 ]
 
 // 28
-console.log(5 % 2);
-// 5, разделенное на 1, равно 5, а остаток - 0
+// const a = 3 % 3;
+// const b = 4 % 3;
+// const c = 11 % 8;
+// const d = 12 % 7;
+// const e = 8 % 6;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(c);
+// console.log(e);
 
-// 5 % 2 = 1;
-// //  5, разделенное на 2, равно 2, а остаток - 1
+// 29
+// function getEvenNumbers(start, end) {
+//     // Change code below this line
+ 
+//  const numbers = [];
+//  for (let i = start; i <= end; i += 1) {
+//     if (i % 2 === 0) {
+//         numbers.push(i);
+//             }
+//     }
+//    return numbers;
+//    }
+//  console.log(getEvenNumbers(2, 5));
+//  console.log(getEvenNumbers(3, 11));
+//  console.log(getEvenNumbers(6, 12));
+//  console.log(getEvenNumbers(8, 8));
+//  console.log(getEvenNumbers(7, 7));
 
-// 5 % 3 = 2;
-// //  5, разделенное на 3, равно 1, а остаток - 2
+//  [ 2, 4 ]
+// [ 4, 6, 8, 10 ]
+// [ 6, 8, 10, 12 ]
+// [ 8 ]
+// []
 
-// 5 % 4 = 1;
-// //  5, разделенное на 4, равно 1, а остаток - 1
+// 30
+// const start = 6;
+// const end = 27;
+// let number;
 
-// 5 % 5 = 0;
-// //  5, разделенное на 5, равно 1, а остаток - 0) 5 % 1 = 0;
-// // 5, разделенное на 1, равно 5, а остаток - 0
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+// }
 
-// 5 % 2 = 1;
-// //  5, разделенное на 2, равно 2, а остаток - 1
+// 31
+// function findNumber(start, end, divisor) {
+//     // Change code below this line
+//     let number;
+  
+//     for (let i = start; i < end; i += 1) {
+//       if (i % divisor === 0) {
+//         return i;
+//       }
+//     }
+  
+    
+//     // Change code above this line
+//   }
+//    console.log(findNumber(2, 6, 5));
+//    console.log(findNumber(8, 17, 3));
+//    console.log(findNumber(6, 9, 4));
+//    console.log(findNumber(16, 35, 7));
 
-// 5 % 3 = 2;
-// //  5, разделенное на 3, равно 1, а остаток - 2
+// 5
+// 9
+// 8
+// 21
 
-// 5 % 4 = 1;
-// //  5, разделенное на 4, равно 1, а остаток - 1
+// 32
+// function includes(array, value) {   
+//     // Change code below this line
+    
+//   for (let element of array) {
+//          if (element === value){
+//             return true;
+//          }
+         
+//         }
+//         return false;
+//   }
+//      console.log(includes([1, 2, 3, 4, 5], 3));
+//      console.log(includes([1, 2, 3, 4, 5], 17));
+//      console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"));
+//      console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus"));
+//      console.log(includes(["apple", "plum", "pear", "orange"], "plum"));
+//      console.log(includes(["apple", "plum", "pear", "orange"], "kiwi"));
+//      console.log("pear" ===  "orange")
 
-// 5 % 5 = 0;
-// //  5, разделенное на 5, равно 1, а остаток - 0
+// true
+// false
+// true
+// false
+// true
+// false
+// false

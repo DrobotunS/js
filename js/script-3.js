@@ -401,31 +401,92 @@
 
 // 19
 
-const products = [
-    { name: "Radar", price: 1300, quantity: 4 },
-    { name: "Scanner", price: 2700, quantity: 3 },
-    { name: "Droid", price: 400, quantity: 7 },
-    { name: "Grip", price: 1200, quantity: 9 },
-  ];
-//   const productsName = [];
-//   const productsPrice = [];
-//   const productsQuantity = [];
-  function getAllPropValues(propName) {
-    for (const product of products) {
-                if (product.name === propName) {
-            return product.name;
-        }
-        return null;
-    }
-    
-}
-//    productsName.push(product.name);
-//     productsName.push(product.price);
-//       productsName.push(product.quantity);
-    
 
-    console.log(getAllPropValues("name"));
-    console.log(getAllPropValues("quantity"));
-    console.log(getAllPropValues("price"));
-  console.log(getAllPropValues("category"));
+//  const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getAllPropValues(propName) {
+//   const arrProductValues = []
+//   // Change code below this line
+// for (const product of products) {
+//     if(product[propName]) {
+//        arrProductValues.push(product[propName])
+//     }
+// }
+// return arrProductValues
+
+//   // Change code above this line
+// }
+
+//     console.log(getAllPropValues("name"));
+//     console.log(getAllPropValues("quantity"));
+//     console.log(getAllPropValues("price"));
+//   console.log(getAllPropValues("category"));
   
+//   [ 'Radar', 'Scanner', 'Droid', 'Grip' ]
+// [ 4, 3, 7, 9 ]
+// [ 1300, 2700, 400, 1200 ]
+// []
+
+// 20
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function calculateTotalPrice(productName) {
+//     for (const product of products) {
+//         if (product.name === productName) {
+//             return product.price * product.quantity;
+//         }
+        
+//     }
+//     return 0;
+// }
+// console.log(calculateTotalPrice("Blaster"));
+// console.log(calculateTotalPrice("Radar"));
+// console.log(calculateTotalPrice("Droid"));
+// console.log(calculateTotalPrice("Grip"));
+// console.log(calculateTotalPrice("Scanner"));
+
+// 0
+// 5200
+// 2800
+// 10800
+// 8100
+
+// 21
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+
+// const { yesterday, today, tomorrow} = highTemperatures;
+
+// // Change code above this line
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+// 22
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+
+// const { yesterday, today, tomorrow, icon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg"} = highTemperatures;
+
+// // Change code above this line
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+// 23
+

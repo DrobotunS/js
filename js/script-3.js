@@ -639,16 +639,142 @@
 // }
 
 // 30
-function makeTask(data) {
-  const completed = false;
-  const category = "General";
-  const priority = "Normal";
-  // Change code below this line
+// function makeTask(data) {
+//   const  startMakeTask = {
+//   completed: false,
+//   category: "General",
+//   priority: "Normal"}
+//   // Change code below this line
+// const finishMakeTask = {...startMakeTask, ...data};
+//   // Change code above this line
+//   return finishMakeTask;
+// }
+// console.log(makeTask({}));
+// console.log(makeTask({ category: "Homemade", priority: "Low", text: "Take out the trash" }));
+// console.log(makeTask({ category: "Finance", text: "Take interest" }));
+// console.log(makeTask({ priority: "Low", text: "Choose shampoo" }));
+// console.log(makeTask({ text: "Buy bread" }));
 
-  // Change code above this line
-}
-console.log(makeTask({}));
-console.log(makeTask({ category: "Homemade", priority: "Low", text: "Take out the trash" }));
-console.log(makeTask({ category: "Finance", text: "Take interest" }));
-console.log(makeTask({ priority: "Low", text: "Choose shampoo" }));
-console.log(makeTask({ text: "Buy bread" }));
+// { completed: false, category: 'General', priority: 'Normal' }
+// {
+//   completed: false,
+//   category: 'Homemade',
+//   priority: 'Low',
+//   text: 'Take out the trash'
+// }
+// {
+//   completed: false,
+//   category: 'Finance',
+//   priority: 'Normal',
+//   text: 'Take interest'
+// }
+// {
+//   completed: false,
+//   category: 'General',
+//   priority: 'Low',
+//   text: 'Choose shampoo'
+// }
+// {
+//   completed: false,
+//   category: 'General',
+//   priority: 'Normal',
+//   text: 'Buy bread'
+// }
+
+// 31
+// function add(...args) {
+//   // Change code above this line
+//   let total = 0;
+//   const addArgs = (args);
+//   for (let arg of args) {
+//     total += arg;
+//   }
+//   return total;
+// }
+// console.log(add(15, 27));
+// console.log(add(12, 4, 11, 48));
+// console.log(add(32, 6, 13, 19, 8));
+// console.log(add(74, 11, 62, 46, 12, 36));
+
+// 42
+// 75
+// 78
+// 241
+
+// 32
+
+// Change code below this line
+// function addOverNum(firstNumber, ...otherArgs) {
+//   let total = 0;
+//   for (const arg of otherArgs) {
+//     if (firstNumber < arg) {
+//   total += arg;
+// }
+    
+    
+//   }
+
+//   return total;
+//   // Change code above this line
+// }
+// console.log(addOverNum(50, 15, 27));
+// console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
+// console.log(addOverNum(15, 32, 6, 13, 19, 8));
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
+
+// 0
+// 71
+// 51
+// 218
+
+// 33
+// Change code below this line
+// function findMatches(firstNumbers, ...otherArgs) {
+//   const matches = [];
+  
+//   for (const firstNumber of firstNumbers) {
+//     if (otherArgs.includes(firstNumber)) {
+//   matches.push(firstNumber);
+// }
+// }
+// return matches;
+// }
+// console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7));
+// console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2));
+// console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41));
+// console.log(findMatches([63, 11, 8, 29], 4, 7, 16));
+
+// [ 1, 2 ]
+// [ 89, 17, 2 ]
+// [ 24, 41, 9 ]
+// []
+
+// 34
+// const bookShelf = {
+//   // Change code below this line
+//   books: ["The last kingdom", "The guardian of dreams"],
+//   getBooks() {
+//     return "Returning all books";
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookRemove) {
+//     return `Deleting book ${bookRemove}`;
+//   },
+//   updateBook(bookUpdate, bookName) {
+//     return `Updating book ${bookUpdate} to ${bookName}`;
+//   }
+//   // Change code above this line
+// };
+// console.log(bookShelf.getBooks());
+// console.log(bookShelf.addBook("Haze"));
+// console.log(bookShelf.removeBook("Red sunset"));
+// console.log(bookShelf.updateBook("Sands of dune", "Dune"));
+
+// Returning all books
+// Adding book Haze
+// Deleting book Red sunset
+// Updating book Sands of dune to Dune
+
+// 35

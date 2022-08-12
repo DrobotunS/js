@@ -521,7 +521,7 @@
 //   const rgbColors = [];
 //   // Change code below this line
   
-//   for (const { hex, rgb} of colors) { 
+//   for (const { hex, rgb} of colors) {
 //     hexColors.push(hex);
 //     rgbColors.push(rgb);
 //   }
@@ -566,14 +566,89 @@
 // 26
 
 // Change code below this line
-function calculateMeanTemperature(forecast) {
-    const todayLow = forecast.today.low;
-    const todayHigh = forecast.today.high;
-    const tomorrowLow = forecast.tomorrow.low;
-    const tomorrowHigh = forecast.tomorrow.high;
-  
-    // Change code above this line
-    return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
-  }
-    console.log(calculateMeanTemperature({ today: {low: 28, high: 32}, tomorrow: {low: 25, high: 29} }));
-    console.log(calculateMeanTemperature({ today: {low: 37, high: 40}, tomorrow: {low: 33, high: 38} }));
+// function calculateMeanTemperature(forecast) {
+//       const {
+//     today: {low: todayLow, high: todayHigh},
+//     tomorrow: { low: tomorrowLow, high: tomorrowHigh},
+//   } = forecast;
+//     return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+//   }
+//     console.log(calculateMeanTemperature({ today: {low: 28, high: 32}, tomorrow: {low: 25, high: 29} }));
+// console.log(calculateMeanTemperature({ today: { low: 37, high: 40 }, tomorrow: { low: 33, high: 38 } }));
+    
+// 28.5
+// 37
+
+// 27
+// const scores = [89, 64, 42, 17, 93, 51, 26];
+// // Change code below this line
+// const bestScore = Math.max(...scores);
+// const worstScore = Math.min(...scores);
+// console.log(bestScore);
+// console.log(worstScore);
+
+// 93
+// 17
+
+// 28
+
+// const firstGroupScores = [64, 42, 93];
+// const secondGroupScores = [89, 14, 51, 26];
+// const thirdGroupScores = [29, 47, 18, 97, 81];
+// // Change code below this line
+
+// const allScores = [...firstGroupScores,...secondGroupScores,...thirdGroupScores];
+// const bestScore = Math.max(...allScores);
+// const worstScore = Math.min(...allScores);
+
+// console.log(allScores);
+// console.log(bestScore);
+// console.log(worstScore);
+
+// [
+//   64, 42, 93, 89, 14,
+//   51, 26, 29, 47, 18,
+//   97, 81
+// ]
+// 97
+// 14
+
+// 29
+// const defaultSettings = {
+//   theme: "light",
+//   public: true,
+//   withPassword: false,
+//   minNumberOfQuestions: 10,
+//   timePerQuestion: 60,
+// };
+// const overrideSettings = {
+//   public: false,
+//   withPassword: true,
+//   timePerQuestion: 30,
+// };
+// // Change code below this line
+// const finalSettings = {...defaultSettings, ...overrideSettings};
+// console.log(finalSettings);
+
+// {
+//   theme: 'light',
+//   public: false,
+//   withPassword: true,
+//   minNumberOfQuestions: 10,
+//   timePerQuestion: 30
+// }
+
+// 30
+function makeTask(data) {
+  const completed = false;
+  const category = "General";
+  const priority = "Normal";
+  // Change code below this line
+
+  // Change code above this line
+}
+console.log(makeTask({}));
+console.log(makeTask({ category: "Homemade", priority: "Low", text: "Take out the trash" }));
+console.log(makeTask({ category: "Finance", text: "Take interest" }));
+console.log(makeTask({ priority: "Low", text: "Choose shampoo" }));
+console.log(makeTask({ text: "Buy bread" }));

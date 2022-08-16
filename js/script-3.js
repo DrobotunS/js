@@ -880,59 +880,140 @@
 // ['Speed potion', 'Polymorth', 'Invisibility']
 
 // 41
-const atTheOldToad = {
-  potions: [
-    { name: "Speed potion", price: 460 },
-    { name: "Dragon breath", price: 780 },
-    { name: "Stone skin", price: 520 },
-  ],
-  getPotions() {
-    return this.potions;
-  },
-  addPotion(newPotion) {
-    for (const potion of this.potions) {
-      if (newPotion.name === potion.name) {
-        return `Error! Potion ${newPotion} is already in your inventory!`;
-      }
-      this.potions.push(newPotion);
-    }
-  },
-  removePotion(potionName) {
-    const { potions } = this;
-    for (let i = 0; i < potions.length; i += 1) {
-      const { name } = this.potions[i];
-      if (name === potionName) {
-        return potions.splice(i, 1);
-      }
-      
-    }
-      return `Potion ${potionName} is not in inventory!`;
-  },
-  updatePotionName(oldName, newName) {
-    const {potions} = this;
-    for (const potion of potions) {
-      if (potion.name === oldName) {
-        potion.name === newName;
-         return newName;
-      }  
-    }
-    return `Potion ${oldName} is not in inventory!`; 
-  }
-};
-// console.log(atTheOldToad.getPotions());
-// atTheOldToad.addPotion({ name: "Dragon breath", price: 700 });
-// console.log(atTheOldToad.addPotion());
-// atTheOldToad.addPotion({ name: "Stone skin", price: 240 });
-// console.log(atTheOldToad.addPotion());
-// atTheOldToad.addPotion({ name: "Dragon breath", price: 700 });
-// console.log(atTheOldToad.addPotion());
-// atTheOldToad.addPotion({ name: "Stone skin", price: 240 });
-// console.log(atTheOldToad.addPotion());
-// atTheOldToad.removePotion("Dragon breath");
-// console.log(atTheOldToad.removePotion());
-// atTheOldToad.removePotion("Speed potion");
-// console.log(atTheOldToad.removePotion());
-// atTheOldToad.updatePotionName("Dragon breath", "Polymorth");
-// console.log(atTheOldToad.updatePotionName());
-// atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion");
-// console.log(atTheOldToad.updatePotionName());
+// 4
+
+
+// const pizzaPalace = {
+//   pizzas: ['Ultracheese', 'Smoked', 'Four meats'],
+//   order(pizzaName, makePizza, onOrderError) {
+//       if (this.pizzas.includes(pizzaName)) {
+//         return makePizza(pizzaName);
+//       }
+//       return onOrderError(`There is no pizza with a name ${pizzaName} in the assortment.`);
+//     }
+//   }
+// function makePizza(pizzaName) {
+//   return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+// }
+
+// // Callback for onError
+// function onOrderError(error) {
+//   'There is no pizza with a name Vienna in the assortment.'
+//   return `Error! ${error}`;
+// }
+
+// // Method calls with callbacks
+// console.log(pizzaPalace.order('Smoked', makePizza, onOrderError));
+// console.log(pizzaPalace.order('Four meats', makePizza, onOrderError));
+// console.log(pizzaPalace.order('Big Mike', makePizza, onOrderError));
+// console.log(pizzaPalace.order('Vienna', makePizza, onOrderError));
+
+// 5
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+
+//   orderedItems.forEach(function (namber) {
+//     totalPrice += (namber)
+//   });
+//     return totalPrice;
+//   };
+
+
+
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+// console.log(calculateTotalPrice([164, 48, 291]));
+// console.log(calculateTotalPrice([412, 371, 94, 63, 176]));
+
+// 6
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+  
+//   numbers.forEach(function (number) {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   });
+//   return filteredNumbers;
+// }
+// console.log(filterArray([1, 2, 3, 4, 5], 3));
+// console.log(filterArray([1, 2, 3, 4, 5], 4));
+// console.log(filterArray([1, 2, 3, 4, 5], 5));
+// console.log(filterArray([12, 24, 8, 41, 76], 38));
+// console.log(filterArray([12, 24, 8, 41, 76], 20));
+
+// [ 4, 5 ]
+// [ 5 ]
+// []
+// [ 41, 76 ]
+// [ 24, 41, 76 ]
+
+// 7
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+//   // Change code below this line
+
+//   firstArray.forEach(function (array) {
+//     if (secondArray.includes(array)) {
+//       commonElements.push(array);
+//     }
+//   })
+
+//   return commonElements;
+//   // Change code above this line
+// }
+// console.log(getCommonElements([1, 2, 3], [2, 4]));
+// console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19]));
+// console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]));
+// console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]));
+// console.log(getCommonElements([1, 2, 3], [10, 20, 30]));
+
+// [ 2 ]
+// [ 1, 2 ]
+// [ 12, 27, 3 ]
+// [ 10, 30, 40 ]
+// []
+
+// 8
+// const calculateTotalPrice = (quantity, pricePerItem) => {
+//   return quantity * pricePerItem;
+// }
+// console.log(calculateTotalPrice(5, 100));
+// console.log(calculateTotalPrice(8, 60));
+// console.log(calculateTotalPrice(3, 400));
+
+// 500
+// 480
+// 1200
+
+// 9
+// Change code below this line
+// const calculateTotalPrice = (quantity, pricePerItem) =>  quantity * pricePerItem;
+
+// // Change code above this line
+// console.log(calculateTotalPrice(5, 100));
+// console.log(calculateTotalPrice(8, 60));
+// console.log(calculateTotalPrice(3, 400));
+
+// 500
+// 480
+// 1200
+
+// 10
+
+
+// const calculateTotalPrice = (orderedItems) => {
+//   let totalPrice = 0;
+//   orderedItems.forEach((item) => {
+//    return totalPrice += item;
+//   });
+
+//   return totalPrice;
+// }
+
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+// console.log(calculateTotalPrice([164, 48, 291]));
+// console.log(calculateTotalPrice([412, 371, 94, 63, 176]));
+
+// 138
+// 503
+// 1116

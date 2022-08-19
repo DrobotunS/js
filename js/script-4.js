@@ -1551,3 +1551,1031 @@
 // 1023
 
 // 36
+
+//  const users = [
+//     {
+//         name: "Moore Hensley",
+//         email: "moorehensley@indexia.com",
+//         eyeColor: "blue",
+//         friends: ["Sharron Pace"],
+//         isActive: false,
+//         balance: 2811,
+//         gender: "male",
+//         age: 37
+//     },
+//     {
+//         name: "Sharlene Bush",
+//         email: "sharlenebush@tubesys.com",
+//         eyeColor: "blue",
+//         friends: ["Briana Decker", "Sharron Pace"],
+//         isActive: true,
+//         balance: 3821,
+//         gender: "female",
+//         age: 34
+//     },
+//     {
+//         name: "Ross Vazquez",
+//         email: "rossvazquez@xinware.com",
+//         eyeColor: "green",
+//         friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//         isActive: false,
+//         balance: 3793,
+//         gender: "male",
+//         age: 24
+//     },
+//     {
+//         name: "Elma Head",
+//         email: "elmahead@omatom.com",
+//         eyeColor: "green",
+//         friends: ["Goldie Gentry", "Aisha Tran"],
+//         isActive: true,
+//         balance: 2278,
+//         gender: "female",
+//         age: 21
+//     },
+//     {
+//         name: "Carey Barr",
+//         email: "careybarr@nurali.com",
+//         eyeColor: "blue",
+//         friends: ["Jordan Sampson", "Eddie Strong"],
+//         isActive: true,
+//         balance: 3951,
+//         gender: "male",
+//         age: 27
+//     },
+//     {
+//         name: "Blackburn Dotson",
+//         email: "blackburndotson@furnigeer.com",
+//         eyeColor: "brown",
+//         friends: ["Jacklyn Lucas", "Linda Chapman"],
+//         isActive: false,
+//         balance: 1498,
+//         gender: "male",
+//         age: 38
+//     },
+//     {
+//         name: "Sheree Anthony",
+//         email: "shereeanthony@kog.com",
+//         eyeColor: "brown",
+//         friends: ["Goldie Gentry", "Briana Decker"],
+//         isActive: true,
+//         balance: 2764,
+//         gender: "female",
+//         age: 39
+//     }
+// ];
+// // Change code below this line
+// const calculateTotalBalance = users => {
+//     return users.reduce((total, user) => total + user.balance, 0);
+// };
+// console.log(calculateTotalBalance(users));
+
+// 20916
+
+// 37
+//  const users = [
+//     {
+//         name: "Moore Hensley",
+//         email: "moorehensley@indexia.com",
+//         eyeColor: "blue",
+//         friends: ["Sharron Pace"],
+//         isActive: false,
+//         balance: 2811,
+//         gender: "male",
+//         age: 37
+//     },
+//     {
+//         name: "Sharlene Bush",
+//         email: "sharlenebush@tubesys.com",
+//         eyeColor: "blue",
+//         friends: ["Briana Decker", "Sharron Pace"],
+//         isActive: true,
+//         balance: 3821,
+//         gender: "female",
+//         age: 34
+//     },
+//     {
+//         name: "Ross Vazquez",
+//         email: "rossvazquez@xinware.com",
+//         eyeColor: "green",
+//         friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//         isActive: false,
+//         balance: 3793,
+//         gender: "male",
+//         age: 24
+//     },
+//     {
+//         name: "Elma Head",
+//         email: "elmahead@omatom.com",
+//         eyeColor: "green",
+//         friends: ["Goldie Gentry", "Aisha Tran"],
+//         isActive: true,
+//         balance: 2278,
+//         gender: "female",
+//         age: 21
+//     },
+//     {
+//         name: "Carey Barr",
+//         email: "careybarr@nurali.com",
+//         eyeColor: "blue",
+//         friends: ["Jordan Sampson", "Eddie Strong"],
+//         isActive: true,
+//         balance: 3951,
+//         gender: "male",
+//         age: 27
+//     },
+//     {
+//         name: "Blackburn Dotson",
+//         email: "blackburndotson@furnigeer.com",
+//         eyeColor: "brown",
+//         friends: ["Jacklyn Lucas", "Linda Chapman"],
+//         isActive: false,
+//         balance: 1498,
+//         gender: "male",
+//         age: 38
+//     },
+//     {
+//         name: "Sheree Anthony",
+//         email: "shereeanthony@kog.com",
+//         eyeColor: "brown",
+//         friends: ["Goldie Gentry", "Briana Decker"],
+//         isActive: true,
+//         balance: 2764,
+//         gender: "female",
+//         age: 39
+//     }
+// ];
+// const getTotalFriendCount = users => {
+//    return users.reduce((total, user) => total + user.friends.length, 0);
+// };
+// console.log(getTotalFriendCount(users));
+
+// 14
+
+// 38
+// const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
+// const authors = [
+//   "Tanith Lee",
+//   "Bernard Cornwell",
+//   "Robert Sheckley",
+//   "Fyodor Dostoevsky",
+// ];
+// // Change code below this line
+
+// const ascendingReleaseDates = [...releaseDates].sort();
+// console.log(ascendingReleaseDates);
+// const alphabeticalAuthors = [...authors].sort();
+// console.log(alphabeticalAuthors);
+
+// [
+//   1967, 1973,
+//   1984, 1997,
+//   2008, 2012,
+//   2016
+// ]
+// [
+//   'Bernard Cornwell',
+//   'Fyodor Dostoevsky',
+//   'Robert Sheckley',
+//   'Tanith Lee'
+// ]
+
+// 39
+// const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
+// // Change code below this line
+
+// const ascendingReleaseDates = [...releaseDates].sort((a, b) => a - b);
+// console.log(ascendingReleaseDates);
+// const descendingReleaseDates = [...releaseDates].sort((a, b) => b - a);
+// console.log(descendingReleaseDates);
+
+// [
+//   1967, 1973,
+//   1984, 1997,
+//   2008, 2012,
+//   2016
+// ]
+// [
+//   2016, 2012,
+//   2008, 1997,
+//   1984, 1973,
+//   1967
+// ]
+
+// 40
+// const authors = [
+//   "Tanith Lee",
+//   "Bernard Cornwell",
+//   "Robert Sheckley",
+//   "Fyodor Dostoevsky",
+//   "Howard Lovecraft",
+// ];
+// // Change code below this line
+
+// const authorsInAlphabetOrder = [...authors].sort((a, b) => a.localeCompare(b));;
+// console.log(authorsInAlphabetOrder);
+// const authorsInReversedOrder = [...authors].sort((a, b) => b.localeCompare(a));;
+// console.log(authorsInReversedOrder);
+
+// [
+//   'Bernard Cornwell',
+//   'Fyodor Dostoevsky',
+//   'Howard Lovecraft',
+//   'Robert Sheckley',
+//   'Tanith Lee'
+// ]
+// [
+//   'Tanith Lee',
+//   'Robert Sheckley',
+//   'Howard Lovecraft',
+//   'Fyodor Dostoevsky',
+//   'Bernard Cornwell'
+// ]
+
+// 41
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
+// ];
+// Change code below this line
+// // В переменной sortedByAuthorName получился массив книг отсортированный по имени автора в алфавитном порядке.
+// const sortedByAuthorName = [...books].sort(
+//   (firstBooks, secondBooks) => firstBooks.author.localeCompare(secondBooks.author)
+// );
+// console.log(sortedByAuthorName);
+// // В переменной sortedByReversedAuthorName получился массив книг отсортированный по имени автора в обратном алфавитном порядке.
+// const sortedByReversedAuthorName = [...books].sort(
+//   (firstBooks, secondBooks) => secondBooks.author.localeCompare(firstBooks.author)
+// );
+// console.log(sortedByReversedAuthorName);
+// // В переменной sortedByAscendingRating получился массив книг отсортированный по возрастанию рейтинга.
+// const sortedByAscendingRating = [...books].sort(
+//   (firstBooks, secondBooks) => firstBooks.rating - secondBooks.rating
+// );
+// console.log(sortedByAscendingRating);
+// // В переменной sortedByDescentingRating получился массив книг отсортированный по убыванию рейтинга.
+// const sortedByDescentingRating = [...books].sort(
+//   (firstBooks, secondBooks) => secondBooks.rating - firstBooks.rating
+// );
+// console.log(sortedByDescentingRating);
+
+// [
+//   {
+//     title: 'The Last Kingdom',
+//     author: 'Bernard Cornwell',
+//     rating: 8.38
+//   },
+//   { title: 'Enemy of God', author: 'Bernard Cornwell', rating: 8.67 },
+//   {
+//     title: 'The Dream of a Ridiculous Man',
+//     author: 'Fyodor Dostoevsky',
+//     rating: 7.75
+//   },
+//   {
+//     title: 'Beside Still Waters',
+//     author: 'Robert Sheckley',
+//     rating: 8.51
+//   },
+//   { title: 'Redder Than Blood', author: 'Tanith Lee', rating: 7.94 }
+// ]
+// [
+//   { title: 'Redder Than Blood', author: 'Tanith Lee', rating: 7.94 },
+//   {
+//     title: 'Beside Still Waters',
+//     author: 'Robert Sheckley',
+//     rating: 8.51
+//   },
+//   {
+//     title: 'The Dream of a Ridiculous Man',
+//     author: 'Fyodor Dostoevsky',
+//     rating: 7.75
+//   },
+//   {
+//     title: 'The Last Kingdom',
+//     author: 'Bernard Cornwell',
+//     rating: 8.38
+//   },
+//   { title: 'Enemy of God', author: 'Bernard Cornwell', rating: 8.67 }
+// ]
+// [
+//   {
+//     title: 'The Dream of a Ridiculous Man',
+//     author: 'Fyodor Dostoevsky',
+//     rating: 7.75
+//   },
+//   { title: 'Redder Than Blood', author: 'Tanith Lee', rating: 7.94 },
+//   {
+//     title: 'The Last Kingdom',
+//     author: 'Bernard Cornwell',
+//     rating: 8.38
+//   },
+//   {
+//     title: 'Beside Still Waters',
+//     author: 'Robert Sheckley',
+//     rating: 8.51
+//   },
+//   { title: 'Enemy of God', author: 'Bernard Cornwell', rating: 8.67 }
+// ]
+// [
+//   { title: 'Enemy of God', author: 'Bernard Cornwell', rating: 8.67 },
+//   {
+//     title: 'Beside Still Waters',
+//     author: 'Robert Sheckley',
+//     rating: 8.51
+//   },
+//   {
+//     title: 'The Last Kingdom',
+//     author: 'Bernard Cornwell',
+//     rating: 8.38
+//   },
+//   { title: 'Redder Than Blood', author: 'Tanith Lee', rating: 7.94 },
+//   {
+//     title: 'The Dream of a Ridiculous Man',
+//     author: 'Fyodor Dostoevsky',
+//     rating: 7.75
+//   }
+// ]
+
+// 42
+
+//  const users = [
+//     {
+//         name: "Moore Hensley",
+//         email: "moorehensley@indexia.com",
+//         eyeColor: "blue",
+//         friends: ["Sharron Pace"],
+//         isActive: false,
+//         balance: 2811,
+//         gender: "male",
+//         age: 37
+//     },
+//     {
+//         name: "Sharlene Bush",
+//         email: "sharlenebush@tubesys.com",
+//         eyeColor: "blue",
+//         friends: ["Briana Decker", "Sharron Pace"],
+//         isActive: true,
+//         balance: 3821,
+//         gender: "female",
+//         age: 34
+//     },
+//     {
+//         name: "Ross Vazquez",
+//         email: "rossvazquez@xinware.com",
+//         eyeColor: "green",
+//         friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//         isActive: false,
+//         balance: 3793,
+//         gender: "male",
+//         age: 24
+//     },
+//     {
+//         name: "Elma Head",
+//         email: "elmahead@omatom.com",
+//         eyeColor: "green",
+//         friends: ["Goldie Gentry", "Aisha Tran"],
+//         isActive: true,
+//         balance: 2278,
+//         gender: "female",
+//         age: 21
+//     },
+//     {
+//         name: "Carey Barr",
+//         email: "careybarr@nurali.com",
+//         eyeColor: "blue",
+//         friends: ["Jordan Sampson", "Eddie Strong"],
+//         isActive: true,
+//         balance: 3951,
+//         gender: "male",
+//         age: 27
+//     },
+//     {
+//         name: "Blackburn Dotson",
+//         email: "blackburndotson@furnigeer.com",
+//         eyeColor: "brown",
+//         friends: ["Jacklyn Lucas", "Linda Chapman"],
+//         isActive: false,
+//         balance: 1498,
+//         gender: "male",
+//         age: 38
+//     },
+//     {
+//         name: "Sheree Anthony",
+//         email: "shereeanthony@kog.com",
+//         eyeColor: "brown",
+//         friends: ["Goldie Gentry", "Briana Decker"],
+//         isActive: true,
+//         balance: 2764,
+//         gender: "female",
+//         age: 39
+//     }
+// ];
+// const sortByAscendingBalance = users => {
+//    return [...users].sort(
+//   (firstUsers, secondUsers) => firstUsers.balance - secondUsers.balance)
+// };
+// console.log(sortByAscendingBalance(users));
+
+// [
+//   {
+//     name: 'Blackburn Dotson',
+//     email: 'blackburndotson@furnigeer.com',
+//     eyeColor: 'brown',
+//     friends: [ 'Jacklyn Lucas', 'Linda Chapman' ],
+//     isActive: false,
+//     balance: 1498,
+//     gender: 'male',
+//     age: 38
+//   },
+//   {
+//     name: 'Elma Head',
+//     email: 'elmahead@omatom.com',
+//     eyeColor: 'green',
+//     friends: [ 'Goldie Gentry', 'Aisha Tran' ],
+//     isActive: true,
+//     balance: 2278,
+//     gender: 'female',
+//     age: 21
+//   },
+//   {
+//     name: 'Sheree Anthony',
+//     email: 'shereeanthony@kog.com',
+//     eyeColor: 'brown',
+//     friends: [ 'Goldie Gentry', 'Briana Decker' ],
+//     isActive: true,
+//     balance: 2764,
+//     gender: 'female',
+//     age: 39
+//   },
+//   {
+//     name: 'Moore Hensley',
+//     email: 'moorehensley@indexia.com',
+//     eyeColor: 'blue',
+//     friends: [ 'Sharron Pace' ],
+//     isActive: false,
+//     balance: 2811,
+//     gender: 'male',
+//     age: 37
+//   },
+//   {
+//     name: 'Ross Vazquez',
+//     email: 'rossvazquez@xinware.com',
+//     eyeColor: 'green',
+//     friends: [ 'Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner' ],
+//     isActive: false,
+//     balance: 3793,
+//     gender: 'male',
+//     age: 24
+//   },
+//   {
+//     name: 'Sharlene Bush',
+//     email: 'sharlenebush@tubesys.com',
+//     eyeColor: 'blue',
+//     friends: [ 'Briana Decker', 'Sharron Pace' ],
+//     isActive: true,
+//     balance: 3821,
+//     gender: 'female',
+//     age: 34
+//   },
+//   {
+//     name: 'Carey Barr',
+//     email: 'careybarr@nurali.com',
+//     eyeColor: 'blue',
+//     friends: [ 'Jordan Sampson', 'Eddie Strong' ],
+//     isActive: true,
+//     balance: 3951,
+//     gender: 'male',
+//     age: 27
+//   }
+// ]
+
+// 43
+//  const users = [
+//     {
+//         name: "Moore Hensley",
+//         email: "moorehensley@indexia.com",
+//         eyeColor: "blue",
+//         friends: ["Sharron Pace"],
+//         isActive: false,
+//         balance: 2811,
+//         gender: "male",
+//         age: 37
+//     },
+//     {
+//         name: "Sharlene Bush",
+//         email: "sharlenebush@tubesys.com",
+//         eyeColor: "blue",
+//         friends: ["Briana Decker", "Sharron Pace"],
+//         isActive: true,
+//         balance: 3821,
+//         gender: "female",
+//         age: 34
+//     },
+//     {
+//         name: "Ross Vazquez",
+//         email: "rossvazquez@xinware.com",
+//         eyeColor: "green",
+//         friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//         isActive: false,
+//         balance: 3793,
+//         gender: "male",
+//         age: 24
+//     },
+//     {
+//         name: "Elma Head",
+//         email: "elmahead@omatom.com",
+//         eyeColor: "green",
+//         friends: ["Goldie Gentry", "Aisha Tran"],
+//         isActive: true,
+//         balance: 2278,
+//         gender: "female",
+//         age: 21
+//     },
+//     {
+//         name: "Carey Barr",
+//         email: "careybarr@nurali.com",
+//         eyeColor: "blue",
+//         friends: ["Jordan Sampson", "Eddie Strong"],
+//         isActive: true,
+//         balance: 3951,
+//         gender: "male",
+//         age: 27
+//     },
+//     {
+//         name: "Blackburn Dotson",
+//         email: "blackburndotson@furnigeer.com",
+//         eyeColor: "brown",
+//         friends: ["Jacklyn Lucas", "Linda Chapman"],
+//         isActive: false,
+//         balance: 1498,
+//         gender: "male",
+//         age: 38
+//     },
+//     {
+//         name: "Sheree Anthony",
+//         email: "shereeanthony@kog.com",
+//         eyeColor: "brown",
+//         friends: ["Goldie Gentry", "Briana Decker"],
+//         isActive: true,
+//         balance: 2764,
+//         gender: "female",
+//         age: 39
+//     }
+// ];
+// const sortByDescendingFriendCount = users => {
+//      return [...users].sort(
+//   (firstUsers, secondUsers) => secondUsers.friends.length - firstUsers.friends.length)
+// };
+// console.log(sortByDescendingFriendCount(users));
+
+// [
+//   {
+//     name: 'Ross Vazquez',
+//     email: 'rossvazquez@xinware.com',
+//     eyeColor: 'green',
+//     friends: [ 'Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner' ],
+//     isActive: false,
+//     balance: 3793,
+//     gender: 'male',
+//     age: 24
+//   },
+//   {
+//     name: 'Sharlene Bush',
+//     email: 'sharlenebush@tubesys.com',
+//     eyeColor: 'blue',
+//     friends: [ 'Briana Decker', 'Sharron Pace' ],
+//     isActive: true,
+//     balance: 3821,
+//     gender: 'female',
+//     age: 34
+//   },
+//   {
+//     name: 'Elma Head',
+//     email: 'elmahead@omatom.com',
+//     eyeColor: 'green',
+//     friends: [ 'Goldie Gentry', 'Aisha Tran' ],
+//     isActive: true,
+//     balance: 2278,
+//     gender: 'female',
+//     age: 21
+//   },
+//   {
+//     name: 'Carey Barr',
+//     email: 'careybarr@nurali.com',
+//     eyeColor: 'blue',
+//     friends: [ 'Jordan Sampson', 'Eddie Strong' ],
+//     isActive: true,
+//     balance: 3951,
+//     gender: 'male',
+//     age: 27
+//   },
+//   {
+//     name: 'Blackburn Dotson',
+//     email: 'blackburndotson@furnigeer.com',
+//     eyeColor: 'brown',
+//     friends: [ 'Jacklyn Lucas', 'Linda Chapman' ],
+//     isActive: false,
+//     balance: 1498,
+//     gender: 'male',
+//     age: 38
+//   },
+//   {
+//     name: 'Sheree Anthony',
+//     email: 'shereeanthony@kog.com',
+//     eyeColor: 'brown',
+//     friends: [ 'Goldie Gentry', 'Briana Decker' ],
+//     isActive: true,
+//     balance: 2764,
+//     gender: 'female',
+//     age: 39
+//   },
+//   {
+//     name: 'Moore Hensley',
+//     email: 'moorehensley@indexia.com',
+//     eyeColor: 'blue',
+//     friends: [ 'Sharron Pace' ],
+//     isActive: false,
+//     balance: 2811,
+//     gender: 'male',
+//     age: 37
+//   }
+// ]
+
+// 44
+//  const users = [
+//     {
+//         name: "Moore Hensley",
+//         email: "moorehensley@indexia.com",
+//         eyeColor: "blue",
+//         friends: ["Sharron Pace"],
+//         isActive: false,
+//         balance: 2811,
+//         gender: "male",
+//         age: 37
+//     },
+//     {
+//         name: "Sharlene Bush",
+//         email: "sharlenebush@tubesys.com",
+//         eyeColor: "blue",
+//         friends: ["Briana Decker", "Sharron Pace"],
+//         isActive: true,
+//         balance: 3821,
+//         gender: "female",
+//         age: 34
+//     },
+//     {
+//         name: "Ross Vazquez",
+//         email: "rossvazquez@xinware.com",
+//         eyeColor: "green",
+//         friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//         isActive: false,
+//         balance: 3793,
+//         gender: "male",
+//         age: 24
+//     },
+//     {
+//         name: "Elma Head",
+//         email: "elmahead@omatom.com",
+//         eyeColor: "green",
+//         friends: ["Goldie Gentry", "Aisha Tran"],
+//         isActive: true,
+//         balance: 2278,
+//         gender: "female",
+//         age: 21
+//     },
+//     {
+//         name: "Carey Barr",
+//         email: "careybarr@nurali.com",
+//         eyeColor: "blue",
+//         friends: ["Jordan Sampson", "Eddie Strong"],
+//         isActive: true,
+//         balance: 3951,
+//         gender: "male",
+//         age: 27
+//     },
+//     {
+//         name: "Blackburn Dotson",
+//         email: "blackburndotson@furnigeer.com",
+//         eyeColor: "brown",
+//         friends: ["Jacklyn Lucas", "Linda Chapman"],
+//         isActive: false,
+//         balance: 1498,
+//         gender: "male",
+//         age: 38
+//     },
+//     {
+//         name: "Sheree Anthony",
+//         email: "shereeanthony@kog.com",
+//         eyeColor: "brown",
+//         friends: ["Goldie Gentry", "Briana Decker"],
+//         isActive: true,
+//         balance: 2764,
+//         gender: "female",
+//         age: 39
+//     }
+// ];
+// const sortByName = users => {
+//     return [...users].sort(
+//   (firstUsers, secondUsers) => firstUsers.name.localeCompare(secondUsers.name))
+// };
+
+// console.log(sortByName(users));
+
+// [
+//   {
+//     name: 'Blackburn Dotson',
+//     email: 'blackburndotson@furnigeer.com',
+//     eyeColor: 'brown',
+//     friends: [ 'Jacklyn Lucas', 'Linda Chapman' ],
+//     isActive: false,
+//     balance: 1498,
+//     gender: 'male',
+//     age: 38
+//   },
+//   {
+//     name: 'Carey Barr',
+//     email: 'careybarr@nurali.com',
+//     eyeColor: 'blue',
+//     friends: [ 'Jordan Sampson', 'Eddie Strong' ],
+//     isActive: true,
+//     balance: 3951,
+//     gender: 'male',
+//     age: 27
+//   },
+//   {
+//     name: 'Elma Head',
+//     email: 'elmahead@omatom.com',
+//     eyeColor: 'green',
+//     friends: [ 'Goldie Gentry', 'Aisha Tran' ],
+//     isActive: true,
+//     balance: 2278,
+//     gender: 'female',
+//     age: 21
+//   },
+//   {
+//     name: 'Moore Hensley',
+//     email: 'moorehensley@indexia.com',
+//     eyeColor: 'blue',
+//     friends: [ 'Sharron Pace' ],
+//     isActive: false,
+//     balance: 2811,
+//     gender: 'male',
+//     age: 37
+//   },
+//   {
+//     name: 'Ross Vazquez',
+//     email: 'rossvazquez@xinware.com',
+//     eyeColor: 'green',
+//     friends: [ 'Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner' ],
+//     isActive: false,
+//     balance: 3793,
+//     gender: 'male',
+//     age: 24
+//   },
+//   {
+//     name: 'Sharlene Bush',
+//     email: 'sharlenebush@tubesys.com',
+//     eyeColor: 'blue',
+//     friends: [ 'Briana Decker', 'Sharron Pace' ],
+//     isActive: true,
+//     balance: 3821,
+//     gender: 'female',
+//     age: 34
+//   },
+//   {
+//     name: 'Sheree Anthony',
+//     email: 'shereeanthony@kog.com',
+//     eyeColor: 'brown',
+//     friends: [ 'Goldie Gentry', 'Briana Decker' ],
+//     isActive: true,
+//     balance: 2764,
+//     gender: 'female',
+//     age: 39
+//   }
+// ]
+
+// 45
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   {
+//     title: "The Dreams in the Witch House",
+//     author: "Howard Lovecraft",
+//     rating: 8.67,
+//   },
+// ];
+// const MIN_BOOK_RATING = 8;
+// // Change code below this line
+
+// const names = [...books]
+//   .filter(book => book.rating > MIN_BOOK_RATING)
+//   .map(book => book.author)
+//   .sort((firstBooks, secondBooks) => firstBooks.localeCompare(secondBooks));
+// console.log(names);
+
+// [ 'Bernard Cornwell', 'Howard Lovecraft', 'Robert Sheckley' ]
+
+
+// 46
+//  const users = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     gender: "male"
+//   },
+//   {
+//     name: "Sharlene Bush",
+//     email: "sharlenebush@tubesys.com",
+//     eyeColor: "blue",
+//     friends: ["Briana Decker", "Sharron Pace"],
+//     isActive: true,
+//     balance: 3821,
+//     gender: "female"
+//   },
+//   {
+//     name: "Ross Vazquez",
+//     email: "rossvazquez@xinware.com",
+//     eyeColor: "green",
+//     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//     isActive: false,
+//     balance: 3793,
+//     gender: "male"
+//   },
+//   {
+//     name: "Elma Head",
+//     email: "elmahead@omatom.com",
+//     eyeColor: "green",
+//     friends: ["Goldie Gentry", "Aisha Tran"],
+//     isActive: true,
+//     balance: 2278,
+//     gender: "female"
+//   },
+//   {
+//     name: "Carey Barr",
+//     email: "careybarr@nurali.com",
+//     eyeColor: "blue",
+//     friends: ["Jordan Sampson", "Eddie Strong", "Adrian Cross"],
+//     isActive: true,
+//     balance: 3951,
+//     gender: "male"
+//   },
+//   {
+//     name: "Blackburn Dotson",
+//     email: "blackburndotson@furnigeer.com",
+//     eyeColor: "brown",
+//     friends: ["Jacklyn Lucas", "Linda Chapman", "Adrian Cross", "Solomon Fokes"],
+//     isActive: false,
+//     balance: 1498,
+//     gender: "male"
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     email: "shereeanthony@kog.com",
+//     eyeColor: "brown",
+//     friends: ["Goldie Gentry", "Briana Decker"],
+//     isActive: true,
+//     balance: 2764,
+//     gender: "female"
+//   }
+// ];
+// const getNamesSortedByFriendCount = users => {
+//    return [...users].sort(
+//      (firstUsers, secondUsers) => firstUsers.friends.length - secondUsers.friends.length)
+//     .map(book => book.name)
+// };
+// console.log(getNamesSortedByFriendCount(users));
+
+// [
+//   'Moore Hensley',
+//   'Sharlene Bush',
+//   'Elma Head',
+//   'Sheree Anthony',
+//   'Ross Vazquez',
+//   'Carey Barr',
+//   'Blackburn Dotson'
+// ]
+
+// 47
+// const users = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     gender: "male"
+//   },
+//   {
+//     name: "Sharlene Bush",
+//     email: "sharlenebush@tubesys.com",
+//     eyeColor: "blue",
+//     friends: ["Briana Decker", "Sharron Pace"],
+//     isActive: true,
+//     balance: 3821,
+//     gender: "female"
+//   },
+//   {
+//     name: "Ross Vazquez",
+//     email: "rossvazquez@xinware.com",
+//     eyeColor: "green",
+//     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//     isActive: false,
+//     balance: 3793,
+//     gender: "male"
+//   },
+//   {
+//     name: "Elma Head",
+//     email: "elmahead@omatom.com",
+//     eyeColor: "green",
+//     friends: ["Goldie Gentry", "Aisha Tran"],
+//     isActive: true,
+//     balance: 2278,
+//     gender: "female"
+//   },
+//   {
+//     name: "Carey Barr",
+//     email: "careybarr@nurali.com",
+//     eyeColor: "blue",
+//     friends: ["Jordan Sampson", "Eddie Strong", "Adrian Cross"],
+//     isActive: true,
+//     balance: 3951,
+//     gender: "male"
+//   },
+//   {
+//     name: "Blackburn Dotson",
+//     email: "blackburndotson@furnigeer.com",
+//     eyeColor: "brown",
+//     friends: ["Jacklyn Lucas", "Linda Chapman", "Adrian Cross", "Solomon Fokes"],
+//     isActive: false,
+//     balance: 1498,
+//     gender: "male"
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     email: "shereeanthony@kog.com",
+//     eyeColor: "brown",
+//     friends: ["Goldie Gentry", "Briana Decker"],
+//     isActive: true,
+//     balance: 2764,
+//     gender: "female"
+//   }
+// ];
+// const getSortedFriends = users => {
+//    return [...users]
+//     .flatMap(book => book.friends)
+//     .filter((friend, index, array) => array.indexOf(friend) === index)
+//   .sort((firstFriend, secondFriend) => firstFriend.localeCompare(secondFriend))
+// };
+// console.log(getSortedFriends(users));
+
+// [
+//   'Adrian Cross',
+//   'Aisha Tran',
+//   'Briana Decker',
+//   'Eddie Strong',
+//   'Goldie Gentry',
+//   'Jacklyn Lucas',
+//   'Jordan Sampson',
+//   'Linda Chapman',
+//   'Marilyn Mcintosh',
+//   'Naomi Buckner',
+//   'Padilla Garrison',
+//   'Sharron Pace',
+//   'Solomon Fokes'
+// ]
+
+// 48
